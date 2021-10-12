@@ -38,24 +38,30 @@ nav ul li a {
 }
 /* END NAV BAR */
  
+
+/* BLOCK SHOES CONTAINER */
 .wrapper {
     height: 100vh;
     width: 100%;
     position: relative;
 }
 
+/* FIRST SHOE BACKGROUND COLOR */
 .wrapper.first-shoe {
     background-color: red;
 }
 
+/* SECOND SHOE BACKGROUND COLOR */
 .wrapper.second-shoe {
     background-color: green;  
 }
 
+/* THIRD SHOE BACKGROUND COLOR */
 .wrapper.third-shoe {
     background-color: yellow; 
 }
 
+/* CENTRATURA ORIZZONTALE E VERTICALE DEGLI ELEMENTI (SCARPA + SCRITTA) */
 .item-wrapper {
     position: absolute;
     top: 50%;
@@ -63,11 +69,13 @@ nav ul li a {
     transform: translate(-50%, -50%);
 }
 
+/* SHOE IMAGE */
 .shoe-image-container {
     width: 700px;
     height: auto;
 }
 
+/* SHOE TEXT */
 .shoe-text-container {
     font-family: 'Rubik Mono One', sans-serif;
     text-transform: uppercase;
@@ -76,9 +84,11 @@ nav ul li a {
     text-align: center;
 }
 
+/* THIRD SHOE DIFFERENT COLOR */
 .shoe-text-container.third {
     color: green;
 }
 
+/* END */
 
 
